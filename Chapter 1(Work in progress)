@@ -1,0 +1,76 @@
+# Beggining of chapter 1
+input("Chapter 1:The Chase Begins(第 1 章：チェイスが始まります)")
+print()
+callin = input("While doing a regular patrol, you are called back to a briefing back at the station."
+               "\nDo you go or just keep doing what you doing?"
+               "\ngo back to the station"
+               "\nkeep doing what you doing"
+               "\n:")
+if callin == "keep doing what you doing":
+    print("You're fired"
+          "\nThe end🙂"
+          "\nGAME OVER")
+    exit()
+elif callin == "go back to the station":
+    print("Smart choice, because either that or you were outta the job.")
+    print()
+input("You arrive at the station and see a couple of other officers gathered up."
+      "\nYour supervisor, Chief Inspector Tayamo Nakamura enters the room:")
+print()
+input("Chief Inspector Nakamura🗣- Alright, settle down.  Today is a new case, and that means a crackdown"
+      "\nBased on  recent reports and incidents, we are starting to witness a increase in Street racing activity,"
+      "\nparticulry on Hanshin Expressway:Loop 1. Based on intel, we have learned that a street racing organization,"
+      "\nKnown as the Dinka Racing Club has been commiting these activities.")
+print()
+
+coprep = 0
+hanshin = input("But chief inspector, how is a street racing group that big of a deal"
+                "\nI dont think its that big of a problem. Lets just ignore it"
+                "\nJust listen to ya damn supervisor"
+                "\n:")
+
+if hanshin == "But chief inspector, how is a street racing group that big of a deal":
+    input("Chief Inspector Nakamura🗣- Hmmm, maybe because with the increase in this street racing activity,"
+          "\nTheres also somehow a increase in vandlism and motor accidents on the hanshin and around Osaka as well. ")
+elif hanshin == "I dont think its that big of a problem. Lets just ignore it":
+    input("Chief Inspector Nakamura🗣- Yup, lets also just ignore the vandlism and motor accidents as well."
+          "\n Too bad Senior Officer "+lastname+", but you cant make that call.")
+    coprep -= 1
+else:
+   print("Good you're listening to your supervisors! Here some free cop rep for you!!")
+   coprep += 2
+   print()
+input("Chief Inspector Nakamura🗣- As i was saying, I want everyone to memorize this list before i get any further"
+      "\nBig Koi"
+      "\n|"
+      "\nLittle Koi"
+      "\n|"
+      "\nColossals"
+      "\n|"
+      "\nJumbos"
+      "\n|"
+      "\nGuppies")
+print()
+koi = input("Why are they named after fish and shrimp sizes"
+      "\nRead the names, but try not laugh")
+if koi == "Why are they named after fish and shrimp sizes?":
+    print("Chief Inspector Nakamura- At the moment, we're not 100% sure,"
+          "\nBut there is intel which reports that they report at a resteurant,"
+          "\nthat does special in Koi.  But we'll get to that in a bit. ")
+if koi == "Those are some pretty stupid but, they do make you a little hungry":
+    print("\nCertain names dont make sense.  But maybe we'll fine a meaning to them")
+
+if koi == "Read the names, but try not laugh":
+    print("....🤭🤭"
+          "\nChief Inspector Nakamura- You aren't fooling anyone..You can laugh..🤦")
+    print()
+input("Chief Inspector Nakamura- Anyway, in a nutshell, the big koi is the head of the racing group. But, this person is so well hidden,"
+      "\nthat we dont have info on him. "
+      "\nThe Little Koi is basiclly the underboss, or the second in command,"
+      "\nhe foresees any actions, or gives an okay on certain meets."
+      "\nThe colossals are more of the seniors/Lieuteants of the group.  They tend to be in charge of meets, tells little koi about activites etc.."
+      "\nNow onto the Jumbos and Guppies.  The Guppies are the lowest of the low.  Newbies/ new members of the racing club."
+      "\nThey dont really start driving until they become Jumbos, or if they're lucky, can drive under certain circumstances"
+      "\nWhereas the Jumbos are the rank above the guppies, but, mainly oversee the newbies and assist them.")
+print()
+input("To those who decide to join the case, will starts as a Guppie, and work their way up.")
